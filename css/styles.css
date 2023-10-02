@@ -1,0 +1,122 @@
+:root{
+    --colorA: #cc3843;
+    --colorB: #0c1f2c;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.box-red {
+    position: relative;
+    background-color: var(--colorA);
+    height: 553px;
+    width: 480px;
+    border-radius: 5%; 
+}
+.starw {
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 25%;
+    top: 37px;
+    margin: 5px;
+}
+.box-blue {
+    position: absolute;
+    background-color:var(--colorB);
+    height: 479px;
+    width: 654px;
+    border-radius: 5%;
+
+    left: 240px;
+    top: 37px;
+}
+.helmet {
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 37px;
+    left: 17px;
+    margin: 65px;
+}
+.contenido h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-left: 240px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    width: 50%;
+}
+.precio {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 240px;
+    margin-top: 9px;
+    height: auto;
+}
+.talla h3 {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;/*Separa letras*/
+    text-transform: uppercase;
+    margin-left: 240px;
+    margin-top: 54px;
+    
+}
+.medida {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    word-spacing: 10px; /*Separa palabras*/
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 240px;  
+}
+.medida a {
+    text-decoration: none;
+}
+.small:hover {
+    padding: 5px 10.205px;
+    border: .5px solid var(--colorA);
+    border-radius: 50%;
+}
+.medium:hover {
+    padding: 5px 8.1px;
+    border: .5px solid var(--colorA);
+    border-radius: 50%; 
+}
+.large:hover {
+    padding: 5px 10.365px;
+    border: .5px solid var(--colorA);
+    border-radius: 50%; 
+}
+.x-large:hover {
+    padding: 5px 6.09px;
+    border: .5px solid var(--colorA);
+    border-radius: 50%; 
+} 
+/* .circle {
+    padding: 5px 10.205px;
+    border: .5px solid var(--colorA);
+    border-radius: 50%; 
+} */
+.boton {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: var(--colorA);
+    padding: 12px 24px;
+    border-radius: 35px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 240px; 
+}
+.firma {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 530px;
+    margin-left: 106px;
+    margin-bottom: 0px;
+}
